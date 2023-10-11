@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    background-image: url(images/niteshbg.png);
     background-size: cover;
     background-position: center;
 }
@@ -26,7 +26,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     flex-wrap: wrap;
 }
 
@@ -422,3 +422,19 @@ nav .fa-solid{
     margin-top: -40px;
     display: block;
 }
+
+@media only screen and (max-width: 600px) {
+    #header {
+        height: auto;
+    }
+    .header-text {
+        margin-top: 30%;
+    }
+    .header-text h1 {
+        font-size: 48px;
+    }
+    #header{
+        background-image: none;
+    }
+  }
+  
